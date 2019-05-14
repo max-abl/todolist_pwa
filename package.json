@@ -1,0 +1,31 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "PWA todo list",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-abl/todolist_pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "todolist"
+  ],
+  "author": "Maxime AUBLET",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/max-abl/todolist_pwa/issues"
+  },
+  "homepage": "https://github.com/max-abl/todolist_pwa#readme",
+  "devDependencies": {
+    "polymer-cli": "^1.9.9",
+    "workbox-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "idb": "^4.0.3",
+    "lit-element": "^2.1.0"
+  }
+}
