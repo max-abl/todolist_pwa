@@ -58,7 +58,6 @@ export default class AppAddTodo extends LitElement {
       }
 
       .btn:hover {
-        background: var(--app-bg-component-color);
         text-decoration: none;
       }
 
