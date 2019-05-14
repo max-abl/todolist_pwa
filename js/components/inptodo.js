@@ -26,7 +26,7 @@ export default class AppAddTodo extends LitElement {
       }
 
       .todo .addtodo {
-        min-width: 50%;
+        min-width: 70%;
         padding: 10px;
         display: inline;
         border-color: var(--app-bg-component-color);
@@ -42,9 +42,24 @@ export default class AppAddTodo extends LitElement {
         transition: 0.2s;
       }
 
-      .btn-validation {
+      .btn {
         min-width: 10%;
-        position: relative;
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 5px;
+        font-family: Arial;
+        color: var(--app-text-color);
+        font-size: 20px;
+        background: var(--app-bg-component-color);
+        padding: 5px 5px 5px 5px;
+        border: solid var(--app-bg-component-color) 0px;
+        text-decoration: none;
+        outline: none;
+      }
+
+      .btn:hover {
+        background: var(--app-bg-component-color);
+        text-decoration: none;
       }
 
       .todo .addtodo:focus {
@@ -82,7 +97,7 @@ export default class AppAddTodo extends LitElement {
           id="addtodo"
           placeholder="Entrez votre tâche ici"
         />
-        <button class="btn">Ok</button>
+        <button class="btn">Save</button>
       </div>
     `;
   }
